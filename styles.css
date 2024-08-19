@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Unbounded:wght@200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pangolin&family=Unbounded:wght@200..900&display=swap');
 
 body {
     background-color: 	#f0e9e3;
@@ -165,15 +165,17 @@ footer {
 }
 
 .quote{
-    font-size: 35px;
+    font-size: 60px;
     margin-bottom: 0;
     line-height: 1;
+    font-family: "Great Vibes";
 }
 
 .author {
     margin-top: -10px;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 1;
+    font-family: "Great Vibes";
 }
 
 footer a{
