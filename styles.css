@@ -121,14 +121,31 @@ main h2{
     text-align: right;
     align-items: right;
     align-self: flex-start;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
     position: absolute;
     bottom: 20px; 
     right: 20px;
 }
 
+.certificate:nth-child(2) {
+    top: -60px; 
+}
+
+.certificate:nth-child(3) {
+    top: 30px; 
+}
+
+.certificate:nth-child(4) {
+    top: 150px; 
+}
+
+.certificate:hover {
+    transform: scale(1.1); 
+    z-index: 10; 
+}
+
 .achievements{
     height: 700px;
-
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
@@ -150,9 +167,14 @@ main h2{
     text-align: right;
     align-items: right;
     align-self: flex-start;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;    
     position: absolute;
     bottom: 20px; 
     right: 20px;
+}
+
+.certificate1:hover {
+    transform: scale(1.1); 
 }
 
 footer {
